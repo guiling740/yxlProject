@@ -1,0 +1,219 @@
+body{
+    font-family: "微软雅黑";
+    width:100%;
+    background-color: #ffffff;
+}
+*{
+    margin:0;
+    padding:0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    width:100%;
+    height:75px;
+    position: relative;
+    border-bottom:3px solid #4285f5;
+}
+.head-roll{
+    position: relative;
+    width:1160px;
+    margin: 0 auto;
+    height:75px;
+}
+.head-left{
+    position: absolute;
+    left:0;
+    top:0;
+}
+.left-logo{
+    height:64px;
+    line-height: 64px;
+    float:left;
+}
+.left-logo i{
+    display: inline-block;
+    margin-top:5px;
+}
+.left-company-name{
+    float:left;
+    margin-left:10px;
+    height:75px;
+    line-height:75px;
+}
+.left-company-name span{
+    font-size:28px;
+}
+
+.head-right{
+    position: absolute;
+    right:0;
+    top:0;
+    height:75px;
+}
+.head-right ul li{
+    float: left;
+    margin-left:20px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.head-right ul li a{
+    color:#333333;
+    font-size:20px;
+    display: inline-block;
+    width:114px;
+    text-align: center;
+    line-height:30px;
+    height:30px;
+}
+.head-right ul li:nth-of-type(1) a{
+    width:70px;
+}
+.head-right ul li:nth-of-type(4) a{
+    color:#ffffff;
+}
+.title-active{
+    background-color:#4285f5;
+    border-radius: 12px;
+    margin-top:20px;
+}
+.body{
+    width:100%;
+    overflow: hidden;
+}
+.body-title{
+    height:152px;
+    width:1141px;
+    margin:0 auto;
+}
+.show-title{
+    width:150px;
+    height:28px;
+    text-align: center;
+    line-height:28px;
+    margin:63px auto 12px auto;
+}
+.show-title h5{
+   font-size:28px;
+    color:#333333;
+}
+.line{
+    width:40px;
+    height:5px;
+    background-color: #4285f5;
+    border-radius:2px;
+    border:0;
+    margin:0 auto;
+    margin-bottom:43px;
+}
+.body-content{
+    width:100%;
+    overflow: hidden;
+    background-color: #f7f7f7;
+}
+.content-info{
+    width:1411px;
+    margin:0 auto 60px auto;
+    overflow: hidden;
+
+}
+.left-content{
+   float:left;
+    text-align:left;
+}
+.company-name{
+    margin-top:74px;
+}
+.company-name span{
+    line-height:25px;
+    font-size:24px;
+    color: #333333;
+}
+.company-info{
+    margin-top:48px;
+}
+.company-sinfo{
+    height:14px;
+    line-height:14px;
+    margin-bottom:33px;
+}
+.company-sinfo span:nth-of-type(1){
+    font-size:14px;
+    color:#333333;
+    font-weight: bolder;
+}
+.company-sinfo span:nth-of-type(2){
+    font-size:16px;
+    color:#5d5d5d;
+}
+.wechat-img{
+    margin-top:90px;
+    width:152px;
+    height:152px;
+}
+.right-content{
+    float:right;
+}
+.company-address{
+    width:758px;
+    height:452px;
+    margin-top:48px;
+}
+.map-box{
+    width:100%;
+    height:395px;
+}
+.company-ainfo{
+    width:100%;
+    height:57px;
+    padding-left:26px;
+    line-height:57px;
+    text-align:left;
+    background-color: #4285f5;
+}
+.company-ainfo span{
+    font-size:20px;
+    color:#ffffff;
+}
+
+.footer{
+    width:100%;
+}
+.footer-blue{
+    width:100%;
+    height:124px;
+    background:#4285f5;
+}
+.footer-conten{
+    padding:50px 0 55px 0;
+    text-align: center;
+}
+.footer-conten span{
+    font-size:16px;
+    color:#ffffff;
+}
+.footer-black{
+    width:100%;
+    height:80px;
+    background:#282828;
+}
+.footer-blue-roll{
+    margin:0 auto;
+    width:1194px;
+    background:#4285f5;
+}
+.footer-black-roll{
+    height:80px;
+    margin:0 auto;
+    width:1194px;
+    background:#282828;
+}
+
+
+
+

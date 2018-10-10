@@ -1,0 +1,1074 @@
+body{
+    font-family: "微软雅黑";
+    width:100%;
+     background-color: #ffffff;
+}
+*{
+    margin:0;
+    padding:0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    width:100%;
+    height:75px;
+    border-bottom:3px solid #4285f5;
+}
+.head-roll{
+    position: relative;
+    width:1160px;
+    margin: 0 auto;
+    height:75px;
+}
+.head-left{
+    position: absolute;
+    left:0;
+    top:0;
+}
+.left-logo{
+    height:64px;
+    line-height: 64px;
+    float:left;
+}
+.left-logo i{
+    display: inline-block;
+    margin-top:5px;
+}
+.left-company-name{
+    float:left;
+    margin-left:10px;
+    height:75px;
+    line-height:75px;
+}
+.left-company-name span{
+    font-size:28px;
+}
+
+.head-right{
+    position: absolute;
+    right:0;
+    top:0;
+    height:75px;
+}
+.head-right ul li{
+    float: left;
+    margin-left:20px;
+    line-height: 75px;
+    cursor: pointer;
+}
+
+.head-right ul li a{
+    color:#333333;
+    font-size:20px;
+    display: inline-block;
+    width:114px;
+    text-align: center;
+    line-height:30px;
+    height:30px;
+}
+.head-right ul li:nth-of-type(1) a{
+    color:#ffffff;
+    width:70px;
+}
+.title-active{
+    background-color:#4285f5;
+    border-radius: 12px;
+    margin-top:20px;
+}
+.body{
+   width:100%;
+    position: relative;
+    background:#ffffff;
+}
+.main-img{
+    height:478px;
+}
+
+.activity{
+    width:1074px;
+    margin:0 auto;
+    height:639px;
+    position:relative;
+}
+.activity-roll{
+    width:1372px;
+    margin: 0 auto;
+}
+.show-wechat{
+    z-index:2;
+    cursor: pointer;
+    display: none;
+
+}
+.act-wechat-position{
+    position:absolute;
+    top:85px;
+    right:290px;
+}
+.show-wechat-bg{
+    width:233px;
+    height:233px;
+    background-image:url("../images/标题二维码bg.png");
+}
+.show-wechat-bg img{
+    margin: 37px;
+}
+
+.act-title{
+    padding-top:66px;
+    width:1074px;
+    margin:0 auto;
+    text-align: center;
+}
+.show-title{
+    width:200px;
+    margin:0 auto;
+    height:24px;
+    padding-bottom:10px;
+}
+.show-title h5{
+    line-height:24px;
+    font-size:24px;
+    color:#333333;
+    display: inline-block;
+    margin-right:-2px;
+}
+
+.show-title h5 div{
+    display: inline-block;
+    width:14px;
+    height:24px;
+    margin: 0 -8px 0 -6px;
+    position: relative;
+}
+.show-title h5 div span{
+    position: absolute;
+    top:3px;
+    left:0;
+    display: inline-block;
+    font-size:14px;
+    line-height:14px;
+
+}
+.show-title i{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    cursor: pointer;
+}
+.show-title i img{
+    float:left;
+}
+
+.act-title .line{
+    width:40px;
+    height:5px;
+    background-color: #4285f5;
+    border-radius:2px;
+    border:0;
+    margin:0 auto;
+}
+.act-introduct{
+    margin-top:28px;
+    text-align: center;
+}
+.act-introduct span{
+   font-size:16px;
+    color:#999999;
+}
+.act-content{
+    width:100%;
+    float:left;
+}
+.act-box{
+    margin-top:36px;
+    width:498px;
+    height:513px;
+    display: inline-block;
+    position: relative;
+}
+.watch-activity{
+    position: absolute;
+    left:0px;
+    top:75px;
+    cursor: pointer;
+}
+
+.watch-activity span{
+    color:#4285f5;
+}
+.watch-box{
+    position: relative;
+}
+.box{
+    width: 86px;
+    height: 140px;
+    position: relative;
+}
+.watch-actbox{
+    background: #d9e7ff;
+}
+
+.box i{
+    position: absolute;
+    display: block;
+    width: 52px;
+    height:52px;
+    top:30px;
+    left:16px;
+}
+.activity-box span{
+    display: block;
+    width:298px;
+    font-size: 24px;
+    position: absolute;
+    bottom:26px;
+    left:-5px;
+}
+
+.watch-actbox:before{
+    border-right: 40px solid #d9e7ff;
+}
+.box:before{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 86px;
+    top: 0;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+}
+.watch-actbox:after{
+    border-left: 40px solid #d9e7ff;
+}
+.box:after{
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 86px;
+    bottom: 0;
+    border-top: 70px solid transparent;
+    border-bottom:70px solid transparent;
+}
+.release-activity{
+    position: absolute;
+    top:0;
+    left:136px;
+    cursor: pointer;
+}
+
+.release-actbox{
+    background:#75a9ff;
+}
+
+.release-activity span{
+    color: #ffffff;
+}
+.release-actbox:before{
+    border-right: 40px solid #75a9ff;
+}
+.release-actbox:after{
+    border-left: 40px solid #75a9ff;
+}
+.registration-activity{
+    position: absolute;
+    top:76px;
+    right:140px;
+    cursor: pointer;
+}
+.registration-actbox{
+    background:#d9e7ff;
+}
+
+.registration-activity span{
+    color: #4285f5;
+}
+.registration-actbox:before{
+    border-right: 40px solid #d9e7ff;
+}
+.registration-actbox:after{
+    border-left: 40px solid #d9e7ff;
+}
+.invite-member{
+    position: absolute;
+    bottom:147px;
+    right:140px;
+    cursor: pointer;
+}
+
+.invite-actbox{
+    background:#9fc3ff;
+}
+.invite-member span{
+    color: #ffffff;
+}
+.invite-actbox:before{
+    border-right: 40px solid #9fc3ff;
+}
+.invite-actbox:after{
+    border-left: 40px solid #9fc3ff;
+}
+
+.intro-activity{
+    position: absolute;
+    bottom:223px;
+    left:136px;
+}
+
+.intro-actbox{
+    background:#4285ff;
+    text-align: center;
+}
+.intro-activity span{
+    color: #ffffff;
+    font-size:38px;
+    display: inline-block;
+    margin-top:42px;
+}
+.intro-actbox:before{
+    border-right: 40px solid #4285ff;
+}
+.intro-actbox:after{
+    border-left: 40px solid #4285ff;
+}
+.right-content{
+    display: inline-block;
+    width:538px;
+    float:right;
+}
+.activity-content{
+    padding-top:123px;
+}
+.activity-content p{
+    color:#5a5a5a;
+    font-size: 24px;
+    height:45px;
+    line-height: 45px;
+}
+.business-card{
+    width:100%;
+    height:703px;
+    background-color: #f7f7f7;
+
+}
+.business-card-roll{
+    background-color: #f7f7f7;
+    position:relative;
+    width:1132px;
+    height:100%;
+    margin:0 auto;
+}
+.bwechat-position{
+    position:absolute;
+    top: 90px;
+    right: 315px;
+}
+
+.card-content{
+    margin-top:14px;
+    width:1132px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.left-card{
+    width:594px;
+    float:left;
+}
+.card-box{
+    width:100%;
+    height:510px;
+    position: relative;
+}
+.card-bg{
+    width:475px;
+    height:475px;
+    position: absolute;
+    left:10px;
+    top:0;
+    background-image: url("../images/名片.png");
+}
+.card-front{
+    position: absolute;
+    left:10px;
+    top:110px;
+    width:310px;
+    height:175px;
+    z-index: 2;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-negative{
+    border-radius: 10px;
+    position: absolute;
+    right:88px;
+    bottom:89px;
+    width:310px;
+    height:175px;
+    z-index: 2;
+    cursor: pointer;
+}
+.card-front img,.card-negative img{
+    width:310px;
+    height:175px;
+}
+.card-shadow{
+    filter:progid:DXImageTransform.Microsoft.Shadow(color='rgba(0,0,0,0.3)', Direction=135,Strength=5);/*for ie6,7,8*/
+    background-color: rgba(0,0,0,0.3);
+    -moz-box-shadow:0px 0px 15px rgba(0,0,0,0.3);/*firefox*/
+    -webkit-box-shadow:0px 0px 15px rgba(0,0,0,0.3);/*webkit*/
+    box-shadow:0px 0px 15px rgba(0,0,0,0.3);/*opera或ie9*/
+}
+.card-shadow:hover{
+    filter:progid:DXImageTransform.Microsoft.Shadow(color='rgba(0,0,0,0.8)', Direction=135,Strength=5);/*for ie6,7,8*/
+    background-color: rgba(0,0,0,0.6);
+    -moz-box-shadow:0px 0px 15px rgba(0,0,0,0.6);/*firefox*/
+    -webkit-box-shadow:0px 0px 15px rgba(0,0,0,0.6);/*webkit*/
+    box-shadow:0px 0px 15px rgba(0,0,0,0.6);/*opera或ie9*/
+}
+.card-content{
+    margin-top:14px;
+}
+.right-description{
+    padding-top:189px;
+}
+.right-content p{
+    color:#5a5a5a;
+    font-size: 24px;
+    height:45px;
+    line-height: 45px;
+}
+.consult{
+    width:100%;
+    height:698px;
+    background-image: url("../images/咨询_bg.png");
+    position:relative;
+}
+.consult-roll{
+    width:1372px;
+    height:100%;
+    margin:0 auto;
+    position: relative;
+}
+.cwechat-position{
+    position: absolute;
+    top: 90px;
+    right: 435px;
+}
+.consult-font .line{
+    background-color: #dfe3e3;
+}
+.consult-font h5{
+    color:#ffffff;
+}
+.act-introduct-span span{
+    color:#ffffff;
+}
+
+.consult-content{
+    padding-top:53px;
+    width:1372px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.consult-box li{
+    float:left;
+    margin-right:8px;
+}
+.consult-box li:nth-of-type(4)
+{
+    margin-right:0;
+}
+.list-box{
+    width:327px;
+    height:398px;
+    background-color:rgba(134,139,134,0.8);
+    border:5px solid #cdd4d2;
+    position: relative;
+}
+
+
+.list-box .upper-part{
+    height:136px;
+    width: 100%;
+    position: relative;
+}
+
+.list-box .upper-part img{
+    position: absolute;
+    left:122px;
+    bottom:10px;
+}
+
+.list-box .down-part{
+    width:100%;
+    height:262px;
+    cursor: pointer;
+}
+.wechat-bg{
+    background-color: #4285f5;
+    position: absolute;
+    bottom:-267px;
+    left:0;
+    width:100%;
+    height:262px;
+}
+
+.list-box .wechat-img{
+    width:158px;
+    height:158px;
+    padding:35px 87px 0 87px;
+    cursor: pointer;
+}
+
+.list-box  .wechat-description{
+    padding-top:20px;
+    width:100%;
+    text-align: center;
+    height:16px;
+}
+
+.list-box  .wechat-description span{
+    line-height: 16px;
+    color: #ffffff;
+    font-size:16px;
+}
+
+.list-box .down-part .downpart-title{
+    padding-top:23px;
+    width: 100%;
+    text-align: center;
+}
+
+.list-box .down-part .downpart-title h5{
+    color: #ffffff;
+    font-size: 24px;
+    height:24px;
+    line-height: 24px;
+}
+.list-box .down-part .downpart-title h5 div{
+    display: inline-block;
+    width: 14px;
+    height: 24px;
+    margin: 0 -8px 0 -6px;
+    position: relative;
+}
+.down-part .downpart-title h5 div span{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.list-box .down-part .downpart-title .downpart-line{
+    width:40px;
+    height:5px;
+    border-radius:2px;
+    border:0;
+    margin:14px 135px 0 135px;
+}
+
+
+.list-box .down-part  .downpart-description
+{
+    padding:20px 46px 0 46px;
+}
+
+.list-box .down-part  .downpart-description p{
+    height:26px;
+    line-height: 26px;
+    font-size: 16px;
+    color:#ffffff;
+}
+.public-welfare{
+    width:100%;
+    height:696px;
+    background-color: #ffffff;
+    position:relative;
+}
+.pwechat-position{
+    position: absolute;
+    top:90px;
+    right:375px;
+}
+.public-roll{
+    width:1250px;
+    height:100%;
+    margin:0 auto;
+    position: relative;
+}
+.left-pwelfare{
+    float: left;
+    width:650px;
+    height:300px;
+}
+.pwelfare-content{
+    width:1250px;
+    margin:0 auto;
+    padding-top:58px;
+}
+.act-recommed{
+    width:100%;
+    height:699px;
+    background-color: #f7f7f7;
+    position:relative;
+}
+.act-recommed-roll{
+    background-color: #f7f7f7;
+    width:1168px;
+    margin:0 auto;
+    height:100%;
+    position: relative;
+}
+.actwechat-position{
+    position: absolute;
+    top:85px;
+    right:330px;
+}
+.act-category{
+    padding-top:60px;
+    width:1168px;
+    height:485px;
+    overflow: hidden;
+    position:relative;
+    margin:0 auto;
+}
+.act-roll{
+    padding-top: 60px;
+    height:485px;
+    position:absolute;
+    top:0;
+    z-index: 1;
+}
+#act-left{
+    z-index: 2;
+    left:0;
+    top:160px;
+}
+#act-right{
+    z-index: 2;
+    right:0;
+    top:160px;
+}
+
+.act-category li{
+    width:262px;
+    margin-right:40px;
+    height:100%;
+    float:left;
+    cursor: pointer;
+}
+.act-category:hover .act-arrow{
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    bottom: 20px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    background: rgba(0,0,0,0.3);
+}
+.act-category .top-part{
+    width:262px;
+    height:262px;
+    background-image: url("../images/活动背景.jpg");
+}
+.act-category li .top-part:hover{
+    -moz-box-shadow:0px 0px 25px rgba(0,0,0,0.3);/*firefox*/
+    -webkit-box-shadow:0px 0px 25px rgba(0,0,0,0.3);/*webkit*/
+    box-shadow:0px 0px 25px rgba(0,0,0,0.3);/*opera或ie9*/
+}
+
+.act-category .top-part .toppart-title{
+    position: absolute;
+    left:17px;
+    top:15px;
+}
+.act-category .top-part .title-box{
+    width:74px;
+    height:30px;
+    background:#67696a;
+    line-height:30px;
+    border-radius: 10px;
+    text-align:center;
+}
+.act-category .top-part .title-box span{
+    color:#ffffff;
+}
+
+.list-category{
+    position: relative;
+    width:262px;
+}
+
+.list-catebox{
+    background-color: #4285f5;
+    width:262px;
+    height:262px;
+    position:absolute;
+    top:0;
+    left:302px;
+}
+
+.list-category .wechat-img{
+    width:158px;
+    height:158px;
+    padding:35px 52px 0 52px;
+    cursor: pointer;
+}
+
+.list-category  .wechat-description{
+    padding-top:20px;
+    width:100%;
+    text-align: center;
+    height:16px;
+}
+
+.list-category  .wechat-description span{
+    line-height: 16px;
+    color: #ffffff;
+    font-size:16px;
+}
+
+.list-category .down-part{
+    padding-top:23px;
+    width:234px;
+    height:107px;
+    margin:0 auto;
+    position:relative;
+
+}
+
+.list-category .down-part .downpart-description p{
+    line-height:28px;
+    height:28px;
+    font-size:18px;
+    color:#333333;
+}
+.list-category .act-price{
+    position:absolute;
+    left:0;
+    bottom:0;
+    height:20px;
+}
+
+.list-category .act-price span{
+    display: inline-block;
+    margin-right:30px;
+    font-size:14px;
+    color:#f85454;
+    line-height:20px;
+    height:100%;
+}
+.list-category  .actprice-num{
+    display: inline-block;
+    height:100%;
+    line-height:20px;
+}
+.list-category  .actprice-watch{
+    display: inline-block;
+    height:20px;
+    width:20px;
+    margin-right:5px;
+}
+
+.list-category  .actprice-num span{
+    display: inline-block;
+    height:20px;
+    font-size: 14px;
+    color:#5e5e5e;
+    line-height:20px;
+}
+.news-info{
+    width:100%;
+    background:#ffffff;
+    height:790px;
+}
+.news-info-roll{
+    width:1194px;
+    margin:0 auto;
+    height:100%;
+    position: relative;
+}
+.nwechat-position{
+    position: absolute;
+    top:85px;
+    right:340px;
+}
+.news-info .news-content{
+    width:1194px;
+    margin:0 auto;
+    padding-top:54px;
+    overflow: hidden;
+}
+.news-info .left-news{
+    float:left;
+    cursor: pointer;
+}
+.news-info .left-newsbox{
+    width:326px;
+    height:396px;
+    padding:24px;
+    margin-right:45px;
+    margin-left:20px;
+    margin-bottom:20px;
+    border:1px solid #dadada;
+}
+.news-info .left-newsbox:hover{
+     filter:progid:DXImageTransform.Microsoft.Shadow(color='rgba(0,0,0,0.3)', Direction=135,Strength=5);/*for ie6,7,8*/
+     background-color: #ffffff;
+     -moz-box-shadow:0px 0px 20px rgba(0,0,0,0.3);/*firefox*/
+     -webkit-box-shadow:0px 0px 20px rgba(0,0,0,0.3);/*webkit*/
+     box-shadow:0px 0px 20px rgba(0,0,0,0.3);/*opera或ie9*/
+ }
+
+.news-info .top-part{
+    height:102px;
+    width:100%;
+}
+.news-info .toppart-intro{
+    width:160px;
+    margin-right:24px;
+    float:left;
+}
+.news-info .toppart-title span{
+    color:#00b43c;
+    font-size:20px;
+    height:28px;
+    line-height:28px;
+}
+.news-info .toppart-date{
+    margin-top:5px;
+    height:12px;
+    line-height:12px;
+}
+.news-info .toppart-date span{
+    font-size:12px;
+    color:#999999;
+}
+.news-info .toppart-img{
+    width:142px;
+    height:102px;
+    float: right;
+}
+.news-info .down-part{
+    margin-top:36px;
+    width:100%;
+    height:250px;
+    position: relative;
+}
+.news-info .down-part p{
+    line-height:32px;
+    font-size:14px;
+    color:#4d555d;
+}
+.news-info .down-part span{
+    width:62px;
+    line-height:32px;
+    font-size:14px;
+    color:#00b43c;
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+.news-info .right-news{
+    float:right;
+}
+.news-info .news-listbox{
+    width:706px;
+    height:444px;
+    border:1px solid #dadada;
+    padding-left:22px;
+    padding-right:22px;
+}
+.news-info .news-list{
+    overflow: hidden;
+}
+.news-info .right-news .newslist-info{
+    height:48px;
+    padding-top:35px;
+    padding-bottom:24px;
+    position:relative;
+}
+.newsbox-border {
+    border-bottom:1px dashed #dadada;
+}
+
+.newslist-title{
+    height:20px;
+    line-height: 20px;
+    margin-bottom:20px;
+}
+.newslist-title span{
+    display: inline-block;
+    font-size:20px;
+    color:#696969;
+}
+.newslist-title span:nth-of-type(1){
+    margin-right:20px;
+}
+.newslist-title hr{
+    height:0;
+    width:34px;
+    border-bottom: 1px solid #323232;
+    display: inline-block;
+    margin-bottom:8px;
+}
+.newslist-content{
+    hieght:14px;
+    line-height: 14px;
+}
+.newslist-content span{
+    font-size: 14px;
+    color:#999999;
+    display: inline-block;
+}
+.newslist-content span:nth-of-type(1){
+    margin-right: 40px;
+}
+
+.newslist-img{
+   position:absolute;
+    width:100px;
+    height:65px;
+    top:22px;
+    right:25px;
+}
+.more-news{
+    width:1194px;
+    margin:0 auto;
+}
+.more-newsInfo{
+    margin-top:37px;
+    width:142px;
+    height:40px;
+    border:1px solid #4285f5;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    cursor: pointer;
+}
+.more-newsInfo span{
+    line-height:40px;
+    font-size:16px;
+    color:#4285f5;
+}
+.more-newsInfo a{
+    display: inline-block;
+    height:40px;
+}
+.more-newsInfo span:nth-of-type(2){
+    font-size:18px;
+    font-weight: bold;
+}
+.footer{
+    width:100%;
+}
+.footer-blue{
+    width:100%;
+    height:124px;
+    background:#4285f5;
+}
+.footer-conten{
+    padding:50px 0 55px 0;
+    text-align: center;
+}
+.footer-conten span{
+    font-size:16px;
+    color:#ffffff;
+}
+.footer-black{
+    width:100%;
+    height:80px;
+    background:#282828;
+}
+.footer-blue-roll{
+    margin:0 auto;
+    width:1194px;
+    background:#4285f5;
+}
+.footer-black-roll{
+    height:80px;
+    margin:0 auto;
+    width:1194px;
+    background:#282828;
+}
+
+.container{
+    width: 100%;
+    height: 478px;
+    overflow: hidden;
+    margin:0 auto;
+    position: relative;
+}
+
+#list{
+    height: 478px;
+    position: absolute;
+      }
+
+#list img  {
+    float: left;
+    cursor: pointer;
+            }
+
+.arrow{
+    z-index: 1;
+    position: absolute;
+    color:#fff;
+    text-decoration: none;
+    bottom: 20px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height:40px;
+    font-size: 30px;
+    top:230px;
+    font-weight: bold;
+    background: rgba(0,0,0,0.3);
+}
+#left{
+    left:20px;
+}
+
+#right{
+    right: 20px;
+}
+
+.btns{
+    width: 100px;
+    height: 10px;
+    position: absolute;
+    bottom: 20px;
+    left: 42%;
+}
+.btns span{
+    cursor: pointer;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-right: 8px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    width: 10px;
+    height: 10px;
+    float: left;
+}
+.btns .on{
+    background: #4285f5;
+}
+
+
+
+
+
+
+
